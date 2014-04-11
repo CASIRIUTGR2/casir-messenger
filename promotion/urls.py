@@ -1,4 +1,5 @@
 from django.conf.urls import patterns, url
 
-urlpatterns = patterns('',
+urlpatterns = patterns('promotion.view',
+                       url(r'^index/$', 'index'),
 )
